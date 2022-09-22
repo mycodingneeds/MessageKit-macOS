@@ -49,6 +49,7 @@ open class TextMessageItem: MessageCollectionViewItem {
         messageLabel.font = font
       }
       messageLabel.frame = messageContainerView.bounds.insetBy(attributes.messageLabelInsets)
+      messageLabel.translatesAutoresizingMaskIntoConstraints = true
     }
   }
   
